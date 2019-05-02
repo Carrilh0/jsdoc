@@ -17,18 +17,20 @@
 	  }
   }
 
-JSON.stringfy() // tranforma em string
-JSON.parse(); // transforma em obj
-arr.unshift(3) // adciona um item no começo do array
-arr.push(3) // adciona um item no final do array
-arr.pop() // remover o ultimo item de um array
-arr.shift() // remover o primeiro item de um array
-arr.join(', ') // juntar intens de um array transformando em string
-arr.reverse() // ordem alfabetica contraria
-arr.sort() // ordenar em ordem alfabetica
-arr.concat() // concatenar o array, mas não armazena no principal
-arr.ToString() // transofrmar array/objeto em string
-
+JSON.stringfy() // tranforma em string;
+JSON.parse(); // transforma em obj;
+arr.unshift(3) // adciona um item no começo do array;
+arr.push(3) // adciona um item no final do array;
+arr.pop() // remover o ultimo item de um array;
+arr.shift() // remover o primeiro item de um array;
+arr.join(', ') // juntar intens de um array transformando em string;
+arr.reverse() // ordem alfabetica contraria;
+arr.sort() // ordenar em ordem alfabetica;
+arr.concat() // concatenar o array, mas não armazena no principal;
+arr.ToString() // transofrmar array/objeto em string;
+arr.slice(1,4) / arr.slice(-1) // Mostra os arrays selecionados de acordo com os indices (between);
+arr.slice(-1) // Mesma função do de cima, porem ;
+arr.splice() // O método splice() altera o conteúdo de uma lista, adicionando novos elementos enquanto remove elementos antigos;
 
 
 
