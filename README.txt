@@ -19,10 +19,15 @@
 
 JSON.stringfy() // tranforma em string
 JSON.parse(); // transforma em obj
-arr.join(', ') // juntar intens de um array
+arr.unshift(3) // adciona um item no começo do array
+arr.push(3) // adciona um item no final do array
+arr.pop() // remover o ultimo item de um array
+arr.shift() // remover o primeiro item de um array
+arr.join(', ') // juntar intens de um array transformando em string
 arr.reverse() // ordem alfabetica contraria
 arr.sort() // ordenar em ordem alfabetica
-
+arr.concat() // concatenar o array, mas não armazena no principal
+arr.ToString() // transofrmar array/objeto em string
 
 
 
