@@ -21,6 +21,8 @@ JSON.stringfy() // tranforma em string;
 
 JSON.parse(); // transforma em obj;
 
+arr.indexOf() // procura no array a existencia do paramentro passado, se resultador = -1 então é falso, caso contrario = true;
+
 arr.unshift(3) // adciona um item no começo do array;
 
 arr.push(3) // adciona um item no final do array;
