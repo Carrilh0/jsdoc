@@ -55,6 +55,8 @@ arr.filter(function(item,index,array){return item>5}) // retorna um array de aco
 
 arr.reduce(function(acumulado,atual,index,array){return acumulado + atual} // O valor de retorno da sua função reducer é atribuída ao acumulador. O acumulador, com seu valor atualizado, é repassado para cada iteração subsequente pelo array, que por fim, se tornará o valor resultante, único, final.
 
+arr.reduceRight(function(previousValue, currentValue, index, array) // Mesma coisa do reduce, porem da direita para a esquerda;
+
 for (var i=0; i<books.length; i++){
 for (var prop in books[i]){
     console.log(prop +': '+ books[i][prop])
