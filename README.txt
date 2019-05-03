@@ -26,17 +26,24 @@ arr.shift() // remover o primeiro item de um array;
 arr.join(', ') // juntar intens de um array transformando em string;
 arr.reverse() // ordem alfabetica contraria;
 arr.sort() // ordenar em ordem alfabetica;
-arr.concat() // concatenar o array, mas não armazena no principal;
+arr.concat([outro array]) // concatenar o array, mas não armazena no principal;
 arr.ToString() // transofrmar array/objeto em string;
 arr.slice(1,4) / arr.slice(-1) // Mostra os arrays selecionados de acordo com os indices (between);
-arr.slice(-1) // Mesma função do de cima, porem ;
 arr.splice() // O método splice() altera o conteúdo de uma lista, adicionando novos elementos enquanto remove elementos antigos;
-
-
-
-//mostrar propiedades e valores de um objeto
+arr.forEach(function(item,index,array){}) // O método forEach() executa uma dada função em cada elemento de um array.
+arr.every(function(item){)} // Retorna true ou false, se todos os itens testatos forem true, ex: return return item < 8; // true;
+arr.some(function(item){)} // Retorna true ou false se apenas um item for true;
+arr.map(function(item,index,array){return item+1}) // faz alguma operação com todos os itens separados do array;
+arr.filter(function(item,index,array){return item>5}) // retorna um array de acordo com oq você quiser;
 
 for (var i=0; i<books.length; i++){
 for (var prop in books[i]){
     console.log(prop +': '+ books[i][prop])
 }}
+
+//transformar array em objeto
+
+arr.forEach(function(item,index){
+	newarr.push({id:index,nome:item})
+	console.log(index,item);
+});
