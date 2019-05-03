@@ -45,11 +45,11 @@ arr.splice() // O método splice() altera o conteúdo de uma lista, adicionando 
 
 arr.forEach(function(item,index,array){}) // O método forEach() executa uma dada função em cada elemento de um array.
 
-arr.every(function(item){)} // Retorna true ou false, se todos os itens testatos forem true, ex: return return item < 8; // true;
+arr.every(function(item, index, array){)} // Retorna true ou false, se todos os itens testatos forem true, ex: return return item < 8; // true;
 
-arr.some(function(item){)} // Retorna true ou false se apenas um item for true;
+arr.some(function(item,index,array){)} // Retorna true ou false se apenas um item do array for true;
 
-arr.map(function(item,index,array){return item+1}) // faz alguma operação com todos os itens separados do array;
+arr.map(function(item,index,array){return item+1}) // faz alguma operação com todos os itens do array;
 
 arr.filter(function(item,index,array){return item>5}) // retorna um array de acordo com oq você quiser;
 
