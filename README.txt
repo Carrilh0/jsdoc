@@ -18,23 +18,42 @@
   }
 
 JSON.stringfy() // tranforma em string;
+
 JSON.parse(); // transforma em obj;
+
 arr.unshift(3) // adciona um item no começo do array;
+
 arr.push(3) // adciona um item no final do array;
+
 arr.pop() // remover o ultimo item de um array;
+
 arr.shift() // remover o primeiro item de um array;
+
 arr.join(', ') // juntar intens de um array transformando em string;
+
 arr.reverse() // ordem alfabetica contraria;
+
 arr.sort() // ordenar em ordem alfabetica;
+
 arr.concat([outro array]) // concatenar o array, mas não armazena no principal;
+
 arr.ToString() // transofrmar array/objeto em string;
+
 arr.slice(1,4) / arr.slice(-1) // Mostra os arrays selecionados de acordo com os indices (between);
+
 arr.splice() // O método splice() altera o conteúdo de uma lista, adicionando novos elementos enquanto remove elementos antigos;
+
 arr.forEach(function(item,index,array){}) // O método forEach() executa uma dada função em cada elemento de um array.
+
 arr.every(function(item){)} // Retorna true ou false, se todos os itens testatos forem true, ex: return return item < 8; // true;
+
 arr.some(function(item){)} // Retorna true ou false se apenas um item for true;
+
 arr.map(function(item,index,array){return item+1}) // faz alguma operação com todos os itens separados do array;
+
 arr.filter(function(item,index,array){return item>5}) // retorna um array de acordo com oq você quiser;
+
+arr.reduce(function(acumulado,atual,index,array){return acumulado + atual} // O valor de retorno da sua função reducer é atribuída ao acumulador. O acumulador, com seu valor atualizado, é repassado para cada iteração subsequente pelo array, que por fim, se tornará o valor resultante, único, final.
 
 for (var i=0; i<books.length; i++){
 for (var prop in books[i]){
