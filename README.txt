@@ -1,4 +1,5 @@
 
+								ARRAYS
 
 
 JSON.stringfy() // tranforma em string;
@@ -44,6 +45,16 @@ arr.reduce(function(acumulado,atual,index,array){return acumulado + atual} // O 
 arr.reduceRight(function(previousValue, currentValue, index, array) // Mesma coisa do reduce, porem da direita para a esquerda;
 
 
+							STRINGS
+							
+							
+							
+str.length = retornar em numero a quantidade de letras;
+str.charAt(0) = retorna a letra na posição do parametro ex: 'vitor' str.charAt(0) = 'v';
+str.concat('a','b') = concatena varias strings em apenas uma;
+str.indexOf('') = verifica sem tem o parametro passado no array;
+str.replace('a','s') = substitui o primeiro parametro na string pelo segundo;
+str.slice 
 
 //calculadora com programação funcional
 
