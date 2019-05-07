@@ -47,7 +47,7 @@ arr.reduceRight(function(previousValue, currentValue, index, array) // Mesma coi
 
 							STRINGS
 							
-							
+EXPRESSÕES REGULARES						
 							
 str.length = retornar em numero a quantidade de letras;
 str.charAt(0) = retorna a letra na posição do parametro ex: 'vitor' str.charAt(0) = 'v';
