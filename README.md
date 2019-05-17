@@ -1,5 +1,5 @@
 
-								# ARRAYS
+# ARRAYS
 
 
 - JSON.stringfy() // tranforma em string;
@@ -45,7 +45,7 @@
 - arr.reduceRight(function(previousValue, currentValue, index, array) // Mesma coisa do reduce, porem da direita para a esquerda;
 
 
-						#	STRINGS
+# STRINGS
 							
 > EXPRESSÕES REGULARES						
 							
