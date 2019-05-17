@@ -56,7 +56,7 @@
 - str.replace('a','s') = substitui o primeiro parametro na string pelo segundo;
 - str.slice 
 
-```
+```javascript
 //calculadora com programação funcional
 
  function calculadora (operador){
@@ -75,7 +75,7 @@
   }
 ```
 
-```//acessar valores de um objeto
+```javascript //acessar valores de um objeto
 
 for (var i=0; i<books.length; i++){
 for (var prop in books[i]){
